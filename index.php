@@ -1,69 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <?php include_once "./uis/head.php" ?>
     <link rel="stylesheet" href="./styles/index_style.css">
     <title>Document</title>
 </head>
-
 <body>
-
-    <nav>
-        <span id="open-close"><i class='bx bx-menu'></i></span>
-    </nav>
-    <aside>
-        <div class="container-svg">
-            <div>
-                <i class='bx bxs-home'></i>
-                <span>Inicio</span>
-            </div>
-        </div>
-        <div class="container-svg">
+    <aside class="aside" id="aside"> 
+        
+        <div class="head">
+            <!-- <div class="profile">
+                <img src="" alt="logo">
+                <p>Sera codex</p>
+            </div> -->
+            <i class='bx bx-menu' id="menu" ></i>
 
         </div>
-            <div><i class='bx bx-layer'></i>
-            <span>Inventario</span>
-                
-        </div>
-        <div class="container-svg">
+        <div class="options">
             <div>
-                <i class='bx bxs-book'></i>
-                <span>Salida</span>
+                <i class='bx bxs-home'><span class="ioption" style="display:none">Inicio</span></i>
+                <span class="option">Inicio</span>
             </div>
-        </div>
-        <div class="container-svg">
+
             <div>
                 <i class='bx bx-layer'></i>
-                <span>Historial</span>
+                <span class="option">Inventario</span>                
             </div>
 
-        </div>
-        <div class="container-svg">
             <div>
                 <i class='bx bxs-book'></i>
-                <span>Registrar BD Remota</span>
+                <span class="option">Salida</span>
+            </div>
+            <div>
+                <i class='bx bx-layer'></i>
+                <span class="option">Historial</span>
             </div>
             <div>
                 <i class='bx bxs-book'></i>
-                <span>Actualizar webs</span>
+                <span class="option">Registrar BD Remota</span>
             </div>
             <div>
                 <i class='bx bxs-book'></i>
-                <span>Exportar</span>
+                <span class="option">Actualizar webs</span>
             </div>
             <div>
                 <i class='bx bxs-book'></i>
-                <span>Importar</span>
+                <span class="option">Exportar</span>
             </div>
             <div>
                 <i class='bx bxs-book'></i>
-                <span>Actualizar a3erp</span>
+                <span class="option">Actualizar a3erp</span>
             </div>
+            
         </div>
     </aside>
-
+    
     <script src="./scripts/scripts.js"></script>
 </body>
-
 </html>

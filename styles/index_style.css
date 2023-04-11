@@ -1,41 +1,76 @@
 *{
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
 }
 
 body{
-  width: 100%;
-  height: 100vh;
-  position: relative;
+    background-color: rgb(104, 173, 233);
+}
+
+.aside{
+    height: 100vh;
+    width: 25vw; 
+    padding: 0.7vw;
+    background-color: cornflowerblue;
+    color: #fff;
+    position: fixed;
+    transition: all .4s ease;
+}
+
+.head{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 2vh;
 }
 
 i{
-  font-size: 3.5vw;
+    font-size: 30px;
+    cursor: pointer;
+}
+div>span{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 0.5vw;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 10px 20px;
-  background-color: blue;
-  position: fixed;
-  border-bottom: 1px solid red;
+.profile{
+    display: flex;
+    align-items: center;
 }
 
-nav span{
-  color: white;
-  cursor: pointer
+.profile img{
+    margin-right: 1vw;
 }
 
-aside{
-  background-color: aquamarine;
-  position: absolute;
-  top:0;
-  left: 0;
-  bottom: 0;
-  overflow-y: hidden;
-  margin-top: 59px;
-  transition: 0.5s;
+.options div{
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
+    margin-bottom: 1.5vh;
+    border-radius: 10px;
 }
+
+.options div:hover{
+    background-color: rgba(255, 255, 255, 0.254);
+    transition: all .4s ease-in-out;
+}
+
+/*!MODIFICACIONES AL CERRAR EL MENU*/
+.aside.active{
+    width: 70px;
+    transition: all .4s ease;
+}
+
+.aside.active .option,
+.aside.active .profile{
+    display: none;
+}
+
+.aside.active .head i{
+    margin: auto;
+}
+
+
