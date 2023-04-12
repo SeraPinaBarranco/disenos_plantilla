@@ -18,8 +18,9 @@
         </div>
         <div class="options">
             <div>
-                <i class='bx bxs-home'><span class="ioption" style="display:none">Inicio</span></i>
+                <i class='bx bxs-home'></i>
                 <span class="option">Inicio</span>
+                <span class="span-i" >Inicio</span>
             </div>
 
             <div>
