@@ -1,0 +1,47 @@
+:root{
+    --rosa : #B58190;
+    --azul : #84A9B5;
+    --gris : #303C40;
+}    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--rosa) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+    padding-left: 1vw;
+
+}
+
+@media (max-width: 600px) {
+   header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4vh;
+    
+   }
+
+   aside{
+    height: 100vh;
+    max-width: 8vw;
+    background-color: var(--rosa);
+   }
+
+   .options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1vh;
+    
+   }
+
+}
+
