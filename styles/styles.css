@@ -1,7 +1,9 @@
 :root {
   --rosa: #e681c4;
   --azul: #5f9ea0;
-  --amarillo: #e6d053;
+  --azul-menu: #5f9ea0d2;
+  --azul-menu2: #314748;
+  --amarillo: rgba(230, 208, 83, .5);
 }
 
 * {
@@ -15,7 +17,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--amarillo);
+  /* background-color: var(--amarillo); */
+  
   margin: 0 auto;
   width: 90%;
   height: 600px;
@@ -24,7 +27,7 @@ main {
   
 }
 
-img{
+#almacen{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -32,13 +35,26 @@ img{
   opacity: .3;
 }
 
+#imagen_pollo{
+  width: 14vw;
+  height: 14vh;
+  /* position: relative; */
+  opacity: .5;
+  margin-left: 80vw;
+}
+
 .logo {
-  background-color: #5f9ea0;
+  /* background-color: #5f9ea0; */
+  /* background-color: #fff; */
 }
 
 .logo {
   display: flex;
-  background-color: #5f9ea0;
+  background-color: #5f9ea0; 
+}
+
+#enviar:hover .tooltiptext{
+  visibility: visible;
 }
 
 .logo-title {
@@ -52,6 +68,15 @@ img{
   font-size: x-large;
 }
 
+.offcanvas-body{
+  background-color: var(--azul-menu2);
+  
+}
+
+.offcanvas-body > span,li{
+  padding-left: 20px;
+}
+
 .offcanvas-header {
   background-color: cadetblue;
   color: #fff;
@@ -60,6 +85,17 @@ img{
 
 :is(li, .offcanvas-body > span) {
   list-style: none;
-  color: #5f9ea0;
+  /* color: #5f9ea0; */
+  color: #fff;
   font-weight: lighter;
+}
+
+i{
+  color: #fff;
+}
+button{
+  border: 0;
+  padding: 5px 8px;
+  border-radius: 5px 5px 5px 5px ;
+  background-color: var(--amarillo);
 }

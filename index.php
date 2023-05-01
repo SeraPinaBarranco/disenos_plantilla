@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <img src="./images/gestion-almacenes.png" alt="">
+    <img id="almacen" src="./images/gestion-almacenes.png" alt="">
     <header>
         <div class="logo">
             <span class="span_logo mt-2 mb-2">
@@ -28,10 +28,11 @@
                     <i class="fa-solid fa-bars hamburguer" style="color: #fff;"></i>
                 </a>
             </span>
-            
+
             <h2 class="logo-title mt-1 mb-1 ms-2">Gestión de Almacén</h2>
-            
+
         </div>
+
     </header>
 
     <aside class="aside-menu-icon">
@@ -39,37 +40,37 @@
 
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENÚ</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
             </div>
 
-            <div class="offcanvas-body">
+            <div class="offcanvas-body ">
 
-                <span><i class="fa fa-dashboard me-2" style="color: #5f9ea0;"></i>Inventario</span>
+                <span><i class="fa fa-dashboard me-2" style="color: #fff;"></i>Inventario</span>
                 <ul class="">
-                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #5f9ea0;"></i>Registrar</li>
-                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #5f9ea0;"></i>Buscar</li>
+                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i>Registrar</li>
+                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i>Buscar</li>
 
                 </ul>
 
-                <span><i class="fa-solid fa-right-from-bracket me-2" style="color: #5f9ea0;"></i>Salida</span>
+                <span><i class="fa-solid fa-right-from-bracket me-2" style="color: #fff;"></i>Salida</span>
                 <ul></ul>
 
-                <span><i class="fa-solid fa-clock-rotate-left me-2" style="color: #5f9ea0;"></i>Historial</span>
+                <span><i class="fa-solid fa-clock-rotate-left me-2" style="color: #fff;"></i>Historial</span>
                 <ul class="">
-                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #5f9ea0;"></i>Entrada</li>
-                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #5f9ea0;"></i>Salida</li>
+                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i>Entrada</li>
+                    <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i>Salida</li>
 
                 </ul>
 
-                <span><i class="fa-solid fa-book me-2" style="color: #5f9ea0;"></i>Registrar BD Remota</span>
+                <span><i class="fa-solid fa-book me-2" style="color: #fff;"></i>Registrar BD Remota</span>
                 <ul></ul>
-                <span><i class="fa-solid fa-book me-2" style="color: #5f9ea0;"></i>Actualizar Webs</span>
+                <span><i class="fa-solid fa-book me-2" style="color: #fff;"></i>Actualizar Webs</span>
                 <ul></ul>
-                <span><i class="fa-solid fa-book me-2" style="color: #5f9ea0;"></i>Exportar</span>
+                <span><i class="fa-solid fa-book me-2" style="color: #fff;"></i>Exportar</span>
                 <ul></ul>
-                <span><i class="fa-solid fa-book me-2" style="color: #5f9ea0;"></i>Importar</span>
+                <span><i class="fa-solid fa-book me-2" style="color: #fff;"></i>Importar</span>
                 <ul></ul>
-                <span><i class="fa-solid fa-book me-2" style="color: #5f9ea0;"></i>Actualizar a3erp</span>
+                <span><i class="fa-solid fa-book me-2" style="color: #fff;"></i>Actualizar a3erp</span>
                 <ul></ul>
 
             </div>
@@ -77,9 +78,12 @@
     </aside>
 
     <main class="mt-5 div">
-        
-        
-       
+
+        <div>
+            <img id="imagen_pollo" src="https://www.babylinesl.com/image/cache//data/Logos%20y%20background/Logo-babylinesl-a-1338x792.png
+    " alt="" srcset="">
+        </div>
+
         <section class="seccion_principal">
             ddd
         </section>
@@ -125,8 +129,10 @@
         <section class="seccion_principal">
             ddd
         </section>
-       
+
+
     </main>
+    <span class="" id="enviar">Enviar<span class="tooltiptext" style="visibility:hidden">Tooltip text</span></span>
 
 </body>
 
