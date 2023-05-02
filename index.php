@@ -73,6 +73,8 @@
                 <span><i class="fa-solid fa-book me-2" style="color: #fff;"></i>Actualizar a3erp</span>
                 <ul></ul>
 
+                
+
             </div>
         </div>
     </aside>
@@ -132,7 +134,7 @@
 
 
     </main>
-    <span class="" id="enviar">Enviar<span class="tooltiptext" style="visibility:hidden">Tooltip text</span></span>
+    
 
 </body>
 
