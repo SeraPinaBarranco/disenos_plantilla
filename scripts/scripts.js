@@ -24,3 +24,17 @@
 //     aside.classList.toggle('show_aside')
     
 // })
+
+// let uri = document.querySelectorAll('.uri')
+// let main = document.getElementsByTagName('main')
+// const ruta = uri.forEach((e)=>{
+//     e.addEventListener('click', (tg)=>{
+//         tg.preventDefault()
+        
+//         main[0].innerHTML = ""
+        
+//         let url = tg.target.getAttribute('href')
+
+//         return url
+//     })
+// })

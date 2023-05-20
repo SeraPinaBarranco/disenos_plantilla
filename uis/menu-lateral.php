@@ -2,7 +2,7 @@
      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 
          <div class="offcanvas-header">
-             <h5 class="offcanvas-title" id="offcanvasExampleLabel">MENÚ</h5>
+             <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a href="<?php $url = "" ?>">MENÚ</a></h5>
              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
          </div>
 
@@ -10,8 +10,8 @@
 
              <span><i class="fa fa-dashboard me-2" style="color: #fff;"></i>Inventario</span>
              <ul class="">
-                 <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i>Registrar</li>
-                 <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i>Buscar</li>
+                 <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i><a class="uri" href="./views/vista.php" >Registrar</a></li>
+                 <li class="" aria-disabled="true"><i class="fa-regular fa-circle me-2" style="color: #fff;"></i><a class="uri" href="./views/vista2.php" >Buscar</a></li>
 
              </ul>
 

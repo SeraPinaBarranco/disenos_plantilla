@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<?php 
-    include_once './uis/head.php';
- ?>
+<?php
+include_once './uis/head.php';
+?>
 
 <body>
     <img id="almacen" src="./images/gestion-almacenes.png" alt="">
@@ -21,155 +21,41 @@
 
     </header>
 
-    <?php 
-        include_once './uis/menu-lateral.php';
+    <?php
+    include_once './uis/menu-lateral.php';
     ?>
 
-    <main class="mt-5 div">
-
+    <!-- <main class="mt-5 div">
         <div>
             <img id="imagen_pollo" src="./images/logo.png" alt="" srcset="">
-        </div>
+        </div> -->
 
-        <!-- <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section>
-        <section class="seccion_principal">
-            ddd
-        </section> -->
+    <main>
 
+        <script>
+            let uri = document.querySelectorAll('.uri')
+            let main = document.getElementsByTagName('main')
+            const ruta = uri.forEach((e) => {
+                e.addEventListener('click', (tg) => {
+                    tg.preventDefault()
 
+                    main[0].innerHTML = ""
+
+                    let url = tg.target.getAttribute('href')
+
+                    return url
+                })
+            })
+            //alert(ruta)
+            // "<?php
+                //     echo "<script>ruta</script>"
+                //     
+                ?>"
+        </script>
     </main>
-    
+
+
+
     <footer>
         PIE
     </footer>
