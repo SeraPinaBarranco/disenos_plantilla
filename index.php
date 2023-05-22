@@ -22,7 +22,8 @@ include_once './uis/head.php';
     </header>
 
     <?php
-    include_once './uis/menu-lateral.php';
+        
+        include_once './uis/menu-lateral.php';
     ?>
 
     <!-- <main class="mt-5 div">
@@ -31,27 +32,8 @@ include_once './uis/head.php';
         </div> -->
 
     <main>
+       
 
-        <script>
-            let uri = document.querySelectorAll('.uri')
-            let main = document.getElementsByTagName('main')
-            const ruta = uri.forEach((e) => {
-                e.addEventListener('click', (tg) => {
-                    tg.preventDefault()
-
-                    main[0].innerHTML = ""
-
-                    let url = tg.target.getAttribute('href')
-
-                    return url
-                })
-            })
-            //alert(ruta)
-            // "<?php
-                //     echo "<script>ruta</script>"
-                //     
-                ?>"
-        </script>
     </main>
 
 
@@ -60,6 +42,7 @@ include_once './uis/head.php';
         PIE
     </footer>
 
+    
 </body>
 
 </html>

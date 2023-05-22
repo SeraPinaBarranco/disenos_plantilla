@@ -1,6 +1,7 @@
-<main class="mt-5 div">
 
-        <div>
+
+export let vista =
+     `   <div>
             <img id="imagen_pollo" src="./images/logo.png" alt="" srcset="">
         </div>
 
@@ -140,5 +141,19 @@
             ddd
         </section> 
 
+ `
+   
+ export let vista2 =`<div>
+ <img id="imagen_pollo" src="./images/logo.png" alt="" srcset="">
+</div>
 
-    </main>
+<section class="seccion_principal">
+ ddd2
+</section>
+<section class="seccion_principal">
+ ddd2
+</section>
+<section class="seccion_principal">
+ ddd2
+</section>`
+ 
